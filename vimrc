@@ -4,11 +4,6 @@ syntax on
 filetype plugin indent on
 
 "<NUL> is ctrl-space
-noremap <silent> <NUL> <esc>
-inoremap <silent> <NUL> <esc>
-cnoremap <silent> <NUL> <esc>
-cnoremap <C-a> <home>
-cnoremap <C-e> <end>
 
 set t_Co=256
 set background=dark
@@ -26,6 +21,8 @@ set ruler
 set number
 set incsearch
 set colorcolumn=81,121
+set splitright
+set showmatch
 
 set cpoptions+=$
 
